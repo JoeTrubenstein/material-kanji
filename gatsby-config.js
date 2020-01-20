@@ -4,6 +4,13 @@ require("dotenv").config({
 
 module.exports = {
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
     'gatsby-plugin-top-layout',
     {
       resolve: 'gatsby-plugin-material-ui',

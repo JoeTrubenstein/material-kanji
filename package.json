@@ -9,6 +9,7 @@
     "gatsby": "latest",
     "gatsby-plugin-material-ui": "latest",
     "gatsby-plugin-react-helmet": "latest",
+    "gatsby-source-filesystem": "^2.1.46",
     "gatsby-source-mongodb": "^2.1.29",
     "react": "latest",
     "react-dom": "latest",

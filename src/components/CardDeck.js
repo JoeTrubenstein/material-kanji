@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
   },
   cardContent: {
     flexGrow: 1
-  },
+  }
 }));
 
 export default function CardDeck(props) {
