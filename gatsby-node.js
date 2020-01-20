@@ -36,7 +36,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const kanji = result.data.allMongodbKandidictKanji.edges;
   //
-  const kanjiPerPage = 60;
+  const kanjiPerPage = 33;
   const numPages = Math.ceil(kanji.length / kanjiPerPage);
 
   // Create n5 kanji pages

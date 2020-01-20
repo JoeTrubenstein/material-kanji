@@ -22,9 +22,9 @@ export default function Index({ data, pageContext }) {
   return (
     <Container maxWidth="lg">
       <Box my={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
+        {/* <Typography variant="h4" component="h1" gutterBottom>
           Kanji N5
-        </Typography>
+        </Typography> */}
         {/* <Link to="/about" color="secondary">
           Go to the about page
         </Link> */}
