@@ -60,7 +60,7 @@ export default function CollapseCard(props) {
         }
         action={
           <IconButton aria-label="settings">
-            <MoreVertIcon />
+            {/* <MoreVertIcon /> */}
           </IconButton>
         }
         title={props.jlpt}
