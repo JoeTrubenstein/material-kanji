@@ -99,7 +99,7 @@ export default function Album() {
               A simple way to review Kanji characters by JLPT level.
             </Typography>
             <div className={classes.heroButtons}>
-              <Grid container spacing={4} justify="center">
+              <Grid container spacing={6} justify="center">
                 <Grid item>
                   <Button href="/n5" variant="contained" color="primary">
                     N5
@@ -147,7 +147,7 @@ export default function Album() {
                     <Typography align="center" gutterBottom variant="h3" component="h2">
                       {card.char}
                     </Typography>
-                    <Typography align="center">{card.meaning}</Typography>
+                    <Typography>{card.meaning}</Typography>
                   </CardContent>
                   <CardActions>
                     <Button href="/n3" size="small" color="primary">
