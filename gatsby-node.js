@@ -211,6 +211,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         allMongodbKandidictKanji(
           filter: { jlpt: { eq: "N1 (advanced)" } }
           sort: { fields: frequency, order: ASC }
+          limit: 333
         ) {
           edges {
             node {

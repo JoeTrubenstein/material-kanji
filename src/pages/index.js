@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
+// import CardMedia from "@material-ui/core/CardMedia";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Grid from "@material-ui/core/Grid";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -131,20 +131,20 @@ export default function Album() {
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
-          <Typography
-              variant="h6"
-              align="center"
-              color="textPrimary"
-              paragraph
-            >
-              Featured Kanji
-            </Typography>
+          <Typography variant="h6" align="center" color="textPrimary" paragraph>
+            Featured Kanji
+          </Typography>
           <Grid container spacing={4}>
             {cards.map(card => (
               <Grid item key={card.char} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardContent className={classes.cardContent}>
-                    <Typography align="center" gutterBottom variant="h3" component="h2">
+                    <Typography
+                      align="center"
+                      gutterBottom
+                      variant="h3"
+                      component="h2"
+                    >
                       {card.char}
                     </Typography>
                     <Typography>{card.meaning}</Typography>

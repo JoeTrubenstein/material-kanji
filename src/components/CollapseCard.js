@@ -13,7 +13,7 @@ import { blue } from "@material-ui/core/colors";
 // import FavoriteIcon from "@material-ui/icons/Favorite";
 // import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
+// import MoreVertIcon from "@material-ui/icons/MoreVert";
 
 const useStyles = makeStyles(theme => ({
   card: {
