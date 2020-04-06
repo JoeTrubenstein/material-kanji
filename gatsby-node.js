@@ -39,7 +39,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const kanjiPerPage = 33;
   const numPages = Math.ceil(kanji.length / kanjiPerPage);
 
-  // Create n5 kanji pages
+  // Create the n5 kanji pages
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `n5` : `/n5/${i + 1}`,
