@@ -19,5 +19,8 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
+  },
+  "resolutions": {
+    "graphql-playground-html": "^1.6.22"
   }
 }
