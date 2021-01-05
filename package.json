@@ -5,7 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.5.1",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "gatsby": "^2.20.12",
     "gatsby-plugin-material-ui": "latest",
     "gatsby-plugin-react-helmet": "^3.2.1",
